@@ -1,7 +1,7 @@
 {
   "name": "market-place-app",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",
@@ -9,13 +9,25 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.90.12",
+    "axios": "^1.13.2",
     "expo": "~54.0.26",
+    "expo-constants": "~18.0.10",
+    "expo-linking": "~8.0.9",
+    "expo-router": "~6.0.16",
     "expo-status-bar": "~3.0.8",
+    "nativewind": "^4.2.1",
     "react": "19.1.0",
-    "react-native": "0.81.5"
+    "react-native": "0.81.5",
+    "react-native-reanimated": "~4.1.0",
+    "react-native-safe-area-context": "5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-worklets": "^0.6.1"
   },
   "devDependencies": {
     "@types/react": "~19.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.4.17",
     "typescript": "~5.9.2"
   },
   "private": true
